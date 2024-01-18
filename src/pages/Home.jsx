@@ -6,7 +6,7 @@ import "./home.css";
 import Trending from "./trending";
 
 const Home = () => {
-  const data = homeStore();
+  const data = HomeStore();
   React.useEffect(() => {
     data.fetchCoins();
   }, []);
