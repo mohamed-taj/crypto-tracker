@@ -1,5 +1,5 @@
 import React from "react";
-import homeStore from "../store/HomeStore";
+import homeStore from "../store/homeStore.js";
 import { Link } from "react-router-dom";
 import Header from "../componants/Header";
 import "./home.css";
