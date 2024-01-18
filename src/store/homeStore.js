@@ -14,7 +14,8 @@ const homeStore = create((set) => ({
     const { query, trending } = homeStore.getState();
     if (query.length > 2) {
       const res = await fetch(
-        `https://api.coingecko.com/api/v3/search?query=${query}`
+        `https://api.coingecko.com/api/v3/search?query=${query}`,
+        { crossDomain: true }
       );
       const data = await res.json();
       const coins = data.coins.map((coin) => {
