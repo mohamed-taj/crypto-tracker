@@ -2,7 +2,7 @@ import axios from "axios";
 import { create } from "zustand";
 import debounce from "../../lib/debounce";
 
-const homeStore = create((set) => ({
+const HomeStore = create((set) => ({
   coins: [],
   trending: [],
   query: "",
@@ -50,4 +50,4 @@ const homeStore = create((set) => ({
     set({ coins: coins, trending: coins });
   },
 }));
-export default homeStore;
+export default HomeStore;
