@@ -1,10 +1,11 @@
 import React from "react";
-import HomeStore from "../store/HomeStore";
+import HomeStore from "../store/homeStore";
 import { Link } from "react-router-dom";
 import Header from "../componants/Header";
 import Alt from "./Alt";
+SS;
 
-import Trending from "./trending";
+import Trending from "./Trending";
 import Footer from "../componants/Footer";
 
 const Home = () => {
