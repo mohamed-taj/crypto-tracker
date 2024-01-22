@@ -14,7 +14,6 @@ import {
   ResponsiveContainer,
 } from "recharts";
 import Header from "../componants/Header";
-import "./show.css";
 
 const Show = () => {
   const param = useParams();

@@ -8,10 +8,10 @@ const HomeStore = create((set) => ({
   query: "",
   setQuery: (e) => {
     set({ query: e.target.value });
-    homeStore.getState().searchQuery();
+    HomeStore.getState().searchQuery();
   },
   searchQuery: debounce(async () => {
-    const { query, trending } = homeStore.getState();
+    const { query, trending } = HomeStore.getState();
     if (query.length > 2) {
       const res = await fetch(
         `https://api.coingecko.com/api/v3/search?query=${query}`,

@@ -1,10 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../index.css";
 
 const Header = ({ back }) => {
   return (
-    <header className="header">
+    <header className="flex items-center justify-center w-[95%] h-[200px] bg-black m-4 rounded-2xl text-white text-bold text-3xl">
       {back && (
         <Link to="/">
           <svg
