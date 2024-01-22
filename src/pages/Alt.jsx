@@ -6,7 +6,8 @@ const Alt = ({ coin }) => {
     <div className="flex  ">
       <Link
         to={`/${coin.id}`}
-        className="w-full items-center justify-around p-4  border rounded-3xl hover:bg-gray-500/10 transition-200"
+        className="w-full items-center justify-around p-4  border rounded-3xl hover:bg-gray-500/10 transition-200
+        bg-white"
       >
         <div className="flex items-center justify-start  space-x-4">
           <img src={coin.image} alt="" width={50} height={50} />

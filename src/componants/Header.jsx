@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Header = ({ back }) => {
   return (
-    <header className="flex items-center justify-center w-[95%] h-[200px] bg-black m-4 rounded-2xl text-white text-bold text-3xl">
+    <header className="flex items-center justify-center w-[95%] h-[200px] m-4 rounded-2xl text-white text-bold text-3xl bg-[radial-gradient(ellipse_at_right,_var(--tw-gradient-stops))] from-sky-400 to-indigo-900 shadow-[0_6px_6px_rgba(8,_112,_184,_0.7)]">
       {back && (
         <Link to="/">
           <svg
