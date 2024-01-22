@@ -13,7 +13,7 @@ const Home = () => {
     data.fetchCoins();
   }, []);
   return (
-    <div className="flex flex-col items-center w-[100%] h-full ">
+    <div className="flex flex-col items-center w-[100%] h-full  ">
       <Header />
       <div className=" w-[95%] h-20 flex flex-col justify-center items-center my-6 ">
         <input
