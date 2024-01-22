@@ -1,7 +1,8 @@
 import React, { useEffect } from "react";
 import { PureComponent } from "react";
 
-import showStore from "../store/showStore";
+import ShowStore from "../store/ShowStore";
+
 import { useParams } from "react-router-dom";
 import {
   AreaChart,
@@ -18,7 +19,7 @@ import Footer from "../componants/Footer";
 
 const Show = () => {
   const param = useParams();
-  const store = showStore();
+  const store = ShowStore();
   React.useEffect(() => {
     store.fetchData(param.id);
   }, []);

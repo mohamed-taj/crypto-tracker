@@ -1,7 +1,7 @@
 import axios from "axios";
 import { create } from "zustand";
 
-const showStore = create((set) => ({
+const ShowStore = create((set) => ({
   graphData: [],
   coinData: [],
   fetchData: async (id) => {
@@ -29,4 +29,4 @@ const showStore = create((set) => ({
     set({ coinData: coins.data });
   },
 }));
-export default showStore;
+export default ShowStore;
