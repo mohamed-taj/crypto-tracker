@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { PureComponent } from "react";
 
-import ShowStore from "../store/ShowStore";
+import ShowStore from "../store/showStore";
 
 import { useParams } from "react-router-dom";
 import {
