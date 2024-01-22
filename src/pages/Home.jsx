@@ -3,7 +3,6 @@ import HomeStore from "../store/homeStore";
 import { Link } from "react-router-dom";
 import Header from "../componants/Header";
 import Alt from "./Alt";
-SS;
 
 import Trending from "./Trending";
 import Footer from "../componants/Footer";
